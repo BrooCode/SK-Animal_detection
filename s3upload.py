@@ -6,8 +6,6 @@ import datetime
 import uuid
 import os
 
-# "AKIAX75KK4ZIJPDHZE6F"
-# "GNIrCjtEQH8bpZ71Ziil/vUaNu1uuoYxM6IAtNs4"
 
 def upload(img):
     success, encoded_image = cv2.imencode('.png', img)
